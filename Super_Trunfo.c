@@ -35,7 +35,7 @@ int main(){
     //coleta de informações referente a carta 2
     printf("\nCadastro carta 2:");
     printf("\nDigite Uma letra de 'A' a 'H' (representando um dos oito estados): ");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
     printf("Digite A letra do estado seguida de um número de 01 a 04 (ex: A01, B03): ");
     scanf("%s", &CodigoCarta2);
     printf("Digite o nome da cidade: ");
