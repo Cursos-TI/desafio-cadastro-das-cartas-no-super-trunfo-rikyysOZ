@@ -57,7 +57,8 @@ int main(){
     PIB_Percapta2 = (float)PIB2 / populacao2;
     PIB_Percapta1 = (float)PIB1 / populacao1;   
     
-    //calcula a soma de todos os valores numerais formando um Super poder para a carta, 1 sobre densidade popupalacional para iverte 
+    /*calcula a soma de todos os valores numerais formando um Super poder para a carta,
+     (1/densidade populaciona)densidade populacional invertida */ 
     Super_poder1 = (float)populacao1+area1+PIB1+Pt_turistico1+PIB_Percapta1+(1/Densidade_populacional1);
     Super_poder2 = (float)populacao2+area2+PIB2+Pt_turistico2+PIB_Percapta2+(1/Densidade_populacional2);
         
