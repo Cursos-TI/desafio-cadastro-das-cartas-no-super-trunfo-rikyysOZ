@@ -106,5 +106,4 @@ int main(){
     printf("\nPIB per Capita: carta %c venceu (%d)",vencedor[ResPercapta], ResPercapta);
     printf("\nSuper Poder: carta %c venceu (%d)",vencedor[ResPoder], ResPoder);
 
-    return 0;
 }
