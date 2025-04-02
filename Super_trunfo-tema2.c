@@ -198,7 +198,7 @@ int main(){
             }
         }
 
-    if (somaAtributosCarta1==somaAtributosCarta2)
+    if (somaAtributosCarta1==somaAtributosCarta2)//checa se todos os atributos somados são iguais ja indicando um empate
     {
         printf("\n\nSoma dos atributos selecionados\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f",
             NomeCidade1, somaAtributosCarta1, NomeCidade2, somaAtributosCarta2);
